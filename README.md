@@ -10,7 +10,7 @@ This is a type inference engine built on the Hindley-Milner algorithm, that anal
 - `(let* ([name val] ...) body)`: ordered `let` (each symbol can access the symbols defined before it)
 - `(letrec ([name val] ...) body)`: `let` with recursion support (symbols can access themselves inside a lambda definition)
 - `(lambda (a b ...) body)`: lambda definition
-- `(head a b ...)`: procedure application (**difference from Scheme**: implicit partial application; such that `(pair a b)` is strictly equivalent to `((pair a) b)`)
+- `(f a b ...)`: procedure application (**difference from Scheme**: implicit partial application; such that `(pair a b)` is strictly equivalent to `((pair a) b)`)
 
 ## Built-ins
 
