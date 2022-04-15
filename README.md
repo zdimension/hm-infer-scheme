@@ -1,6 +1,6 @@
 # Hindley-Milner type inference in Scheme, for Scheme
 
-[C# port here](https://github.com/zdimension/hm-infer-cs).
+[C# port here](https://github.com/zdimension/hm-infer-cs), [Rust port here](https://github.com/zdimension/hm-infer-rs).
 
 This is a type inference engine built on the Hindley-Milner algorithm, that analyzes, type-checks and computes the type of expressions written in an extended subset of Scheme.
 
